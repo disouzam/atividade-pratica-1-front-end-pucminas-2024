@@ -18,5 +18,17 @@
         "react"
     ],
     "rules": {
+        "indent": [
+            "error",
+             2
+        ],
+        "max-len": [
+            "error", 
+            { 
+                "code": 100,
+                "ignoreTrailingComments": true,
+                "ignoreComments": true
+            }
+        ]
     }
 }
