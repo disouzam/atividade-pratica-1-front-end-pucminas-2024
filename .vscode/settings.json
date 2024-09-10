@@ -1,7 +1,13 @@
 {
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "always"
-    },
-    "eslint.validate": ["javascript"],
-    "editor.trimAutoWhitespace": true
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "never"
+  },
+  "eslint.validate": [
+    "javascript"
+  ],
+  "editor.trimAutoWhitespace": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true,
+  "editor.indentSize": 2,
+  "editor.tabSize": 2
 }
