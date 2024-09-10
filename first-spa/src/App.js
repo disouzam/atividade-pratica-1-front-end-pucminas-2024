@@ -5,7 +5,7 @@ import CustomHeader from './CustomHeader/CustomHeader'
 function App() {
   return (
       <div className="App">
-          <CustomHeader></CustomHeader>     
+          <CustomHeader></CustomHeader>
           <Content></Content>
         </div>
   );
