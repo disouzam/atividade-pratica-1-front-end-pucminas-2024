@@ -20,8 +20,8 @@ const CustomHeader = () => {
           <img
             className={styles.AvatarImage}
             src={window.location.origin + '/Dickson.jpg'}
-            width={134.1}
-            height={168.5}
+            width={160}
+            height={160}
           />
         </div>
         <div className={styles.BioArea}>
