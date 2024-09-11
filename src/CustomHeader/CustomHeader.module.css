@@ -19,6 +19,11 @@
   padding-top: 1%;
 }
 
+.HorizontalMenuItems a{
+  color: white;
+  text-decoration: none;
+}
+
 /* Inline formatting of list items and horizontal spacing */
 .HorizontalMenuItems li{
   display: inline;

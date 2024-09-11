@@ -6,13 +6,25 @@ const CustomHeader = () => {
     <div className={styles.CustomHeader}>
       <ul className={styles.HorizontalMenuItems}>
         <li>
-          Blog
+          <a
+            href="./blog"
+          >
+            Blog
+          </a>
         </li>
         <li>
-          About
+          <a
+            href="./about"
+          >
+            About
+          </a>
         </li>
         <li>
-          Description
+          <a
+            href="./description"
+          >
+            Description
+          </a>
         </li>
       </ul>
       <div className={styles.Container}>
