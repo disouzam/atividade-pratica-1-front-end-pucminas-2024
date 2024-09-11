@@ -1,3 +1,4 @@
+/* Top-level element */
 .Container{
   margin-top: 21%;
   margin-left: 30%;
@@ -6,10 +7,12 @@
   text-align: center;
 }
 
+/* Header h1 scoped to Content's Container class to avoid conflict with other component's h1 */
 .Container h1{
   text-align: left;
 }
 
+/* Header h2 scoped to Content's Container class to avoid conflict with other component's h2 */
 .Container h2{
   color: cornflowerblue;
   text-align: left;

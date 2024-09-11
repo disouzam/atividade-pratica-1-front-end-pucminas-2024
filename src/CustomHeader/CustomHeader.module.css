@@ -1,3 +1,4 @@
+/* Top-level element */
 .CustomHeader{
     width:75%;
     height:37vh;
@@ -12,20 +13,29 @@
     text-align: center;
 }
 
+/* Basic styling for top menu with entries Blog, About and Description */
 .HorizontalMenuItems {
   margin-top: 0%;
   padding-top: 1%;
 }
 
+/* Inline formatting of list items and horizontal spacing */
 .HorizontalMenuItems li{
   display: inline;
   margin-inline-end: 30px;
 }
 
+/* Header h1 scoped to CustomHeader class to avoid conflict with other component's h1 */
 .CustomHeader h1{
   text-align: left;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+/* Top-level container for Bio area and PhotoArea */
+.Container{
+  display: flex;
+  justify-content:baseline;
 }
 
 .Paragraph{
@@ -34,11 +44,6 @@
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 30%;
-}
-
-.Container{
-  display: flex;
-  justify-content:baseline;
 }
 
 .AvatarImage{

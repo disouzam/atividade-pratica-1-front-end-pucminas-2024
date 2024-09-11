@@ -16,7 +16,7 @@ const Content = () => {
       </h2>
       <p>
         <b>Information overload</b>, i.e., the widespread notion
-        that we can&apos;t grasp everything in the information environment and <i>FOMO</i>
+        that we can&apos;t grasp everything in the information environment and <i>FOMO</i>&nbsp;
         are closely interconnected. Curating information can help.
         <a
           href="https://www.linkedin.com/pulse/01-curating-information-promote-learning-dickson-alves-de-souza"
