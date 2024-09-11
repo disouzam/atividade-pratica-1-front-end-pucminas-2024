@@ -9,10 +9,10 @@ const CustomHeader = () => {
           Blog
         </li>
         <li>
-          Sobre
+          About
         </li>
         <li>
-          Descrição
+          Description
         </li>
       </ul>
       <div className={styles.Container}>
