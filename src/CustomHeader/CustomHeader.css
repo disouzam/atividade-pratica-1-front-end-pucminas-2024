@@ -1,7 +1,54 @@
 .CustomHeader{
     width:75%;
-    height:30vh;
+    height:40vh;
     margin-left: auto;
     margin-right: auto;
-    background-color:#475;
+    background-color:rgb(47, 85, 141);
+    color: white
+}
+
+.HorizontalMenuItems {
+  margin-top: 0%;
+  padding-top: 2%;
+}
+
+.HorizontalMenuItems li{
+  display: inline;
+  margin-inline-end: 30px;
+}
+
+h1{
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Paragraph{
+  text-align: justify;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 30%;
+}
+
+.Container{
+  display: flex;
+  justify-content:baseline;
+}
+
+.AvatarImage{
+  border-radius: 50%;
+}
+
+.PhotoArea{
+  flex: 4;
+  text-align: right;
+  padding-right: 3%;
+}
+
+.BioArea{
+  flex: 8;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-weight: lighter;
 }
