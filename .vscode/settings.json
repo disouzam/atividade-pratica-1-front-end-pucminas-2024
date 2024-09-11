@@ -9,5 +9,6 @@
   "files.trimTrailingWhitespace": true,
   "editor.formatOnSave": true,
   "editor.indentSize": 2,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "files.eol": "\n"
 }

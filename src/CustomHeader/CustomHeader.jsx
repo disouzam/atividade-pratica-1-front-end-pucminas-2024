@@ -1,10 +1,10 @@
 import React from 'react';
-import './CustomHeader.css';
+import styles from './CustomHeader.module.css';
 
 const CustomHeader = () => {
   return (
-    <div className="CustomHeader">
-      <ul className='HorizontalMenuItems'>
+    <div className={styles.CustomHeader}>
+      <ul className={styles.HorizontalMenuItems}>
         <li>
           Blog
         </li>
@@ -15,21 +15,22 @@ const CustomHeader = () => {
           Descrição
         </li>
       </ul>
-      <div className='Container'>
-        <div className='PhotoArea'>
+      <div className={styles.Container}>
+        <div className={styles.PhotoArea}>
           <img
-            className='AvatarImage'
+            className={styles.AvatarImage}
             src={window.location.origin + '/Dickson.jpg'}
             width={134.1}
             height={168.5}
           />
         </div>
-        <div className='BioArea'>
+        <div className={styles.BioArea}>
           <h1>Dickson Souza</h1>
-          <p className='Paragraph'>I am a metallurgical engineer! Coding and software development,
+          <p className={styles.Paragraph}>I am a metallurgical engineer!
+            Coding and software development,
             however, is on my life
             for a long time!</p>
-          <p className='Paragraph'>
+          <p className={styles.Paragraph}>
             It all started as curiosity and it is gradually becoming something
             more serious along the years, including a specialization course at PUC Minas on
             Software Engineering
