@@ -1,15 +1,20 @@
 .CustomHeader{
     width:75%;
-    height:40vh;
-    margin-left: auto;
-    margin-right: auto;
+    height:37vh;
+    top: 0%;
+    margin-top: 0%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
     background-color:rgb(47, 85, 141);
-    color: white
+    padding-top: 0%;
+    color: white;
+    position:fixed;
+    text-align: center;
 }
 
 .HorizontalMenuItems {
   margin-top: 0%;
-  padding-top: 2%;
+  padding-top: 1%;
 }
 
 .HorizontalMenuItems li{
