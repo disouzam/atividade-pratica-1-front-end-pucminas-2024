@@ -1,8 +1,9 @@
 .Container{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
+  margin-top: 21%;
+  margin-left: 30%;
+  margin-right: 30%;
   width: 40%;
+  text-align: center;
 }
 
 .Container h1{
@@ -12,6 +13,12 @@
 .Container h2{
   color: cornflowerblue;
   text-align: left;
+}
+
+/* Avoid underscore and change in colors of links in h2 tags */
+.Container h2 a:link, a:visited, a:hover, a:active{
+  color: cornflowerblue;
+  text-decoration: none;
 }
 
 .Container p{
