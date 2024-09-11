@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). And customized with two simple components, CustomHeader and Content, as part of a practical activity of Front-end architecture course, taught by professor [Samuel Martins](https://www.linkedin.com/in/samwx/). This course is part of Software Engineering specialization course from [PUC Minas](https://www.pucminas.br/Pos-Graduacao/IEC/Cursos/Paginas/Engenharia-de-Software_Online.aspx?pageID=3833&moda=5&modaTipo=2&polo=40&curso=174&situ=1)
 
+Though the project is easily run locally using `npm start` (after using `npm install` to install dependencies), the image below shows how the simple page created using React (old way using Create React App) looks like:
+
+![Screenshot_Blog_FirstPage.png](Screenshot_Blog_FirstPage.png)
+Figure 1: Screenshot of blog's first page
+
 ## Available Scripts
 
 In the project directory, you can run:
