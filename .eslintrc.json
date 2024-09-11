@@ -27,7 +27,8 @@
       {
         "code": 100,
         "ignoreTrailingComments": true,
-        "ignoreComments": true
+        "ignoreComments": true,
+        "ignoreUrls": true
       }
     ],
     "require-jsdoc": [
